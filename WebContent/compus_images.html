@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+    
+    <link href="photoswipe/examples/jquery-mobile.css" type="text/css" rel="stylesheet" />
+	<link href="photoswipe/photoswipe.css" type="text/css" rel="stylesheet" />
+
+    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+    
+    <script src="photoswipe/lib/klass.min.js"></script>   
+	<script src="photoswipe/code.photoswipe.jquery-3.0.4.min.js"></script>
+    <script src="photoswipe/create_ps_instance.js"></script>
+  
+</head>
+<body>
+	<div data-role="page" id="main">
+		<div data-role="content">
+			<a href="#campus_images">캠퍼스 이미지</a>
+		</div>
+	</div>
+	<div data-role="page" id="campus_images" class="gallery-page">
+		<div data-role="header">
+			<a href="#main" data-icon="home" data-direction="reverse" class="ui-btn-left">HOME</a>
+			<h1>캠퍼스 이미지</h1>
+		</div>
+		<div data-role="content" data-theme="d">
+			<ul class="gallery">
+				<li><a href="pic/full/cb01.jpg" rel="external"><img src="pic/thumb/ca01.jpg"></a></li>
+				<li><a href="pic/full/cb02.jpg" rel="external"><img src="pic/thumb/ca02.jpg"></a></li>
+				<li><a href="pic/full/cb03.jpg" rel="external"><img src="pic/thumb/ca03.jpg"></a></li>
+				<li><a href="pic/full/cb04.jpg" rel="external"><img src="pic/thumb/ca04.jpg"></a></li>
+				<li><a href="pic/full/cb05.jpg" rel="external"><img src="pic/thumb/ca05.jpg"></a></li>
+				<li><a href="pic/full/cb06.jpg" rel="external"><img src="pic/thumb/ca06.jpg"></a></li>
+				<li><a href="pic/full/cb07.jpg" rel="external"><img src="pic/thumb/ca07.jpg"></a></li>
+			</ul>		
+		</div>
+		<div data-role="footer">
+			<h2>버추얼 대학교</h2>
+		</div>
+	</div>
+</body>
+</html>
